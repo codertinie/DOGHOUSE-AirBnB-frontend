@@ -1,0 +1,62 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(200, 212, 223);
+    background-size: cover;
+    
+}
+.registertittle{
+    font-size: 30px;
+    color: rgb(238, 238, 245);
+}
+
+.registerform{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.registerform > label{
+    margin: 10px 0;
+}
+.registerinput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+.registerbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(185, 194, 224);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(25, 39, 146);
+
+}
+.loginbutton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(21, 51, 152);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+.login {
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(219, 224, 237);
+    background-size: cover;
+    background-image: url("../../assets/pexels-chevanon-photography-1108099.jpg");
+    
+    
+  }
+ 

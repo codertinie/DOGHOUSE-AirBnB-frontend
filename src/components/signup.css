@@ -1,0 +1,49 @@
+.signup{
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(219, 224, 237);
+    background-size: cover;
+    background-image: url("../../assets/pexels-chevanon-photography-1108099.jpg");
+    
+}
+.signuptittle{
+    font-size: 30px;
+    color: rgb(244, 235, 235);
+}
+
+.registerform{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 50%;
+}
+.registerform > label{
+    margin: 10px 0;
+}
+.registerinput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+
+}
+.registerbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+.toast-message {
+    background: darkblue;
+    color: #fff;
+    font-size: 20px;
+    width: 34vw;
+    padding: 30px 20px;
+}
