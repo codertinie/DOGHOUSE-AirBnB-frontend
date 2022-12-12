@@ -32,7 +32,7 @@ function Single({ user, id }) {
   function handleSubmit(e) {
     e.preventDefault();
     e.target.reset()
-    fetch(`/dog_houses/${house.id}/reviews`, {
+    fetch(`http://localhost:3000/dog_houses/${house.id}/reviews`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -44,7 +44,7 @@ function Single({ user, id }) {
   }
   console.log(id)
   useEffect(() => {
-    fetch(`/dog_houses/${id}`)
+    fetch(`http://localhost:3000/dog_houses/${id}`)
       .then(response => response.json()
       )
       .then((data) => {
@@ -60,7 +60,7 @@ function Single({ user, id }) {
   }
 
   function handleDelete(id) {
-    fetch(`/reviews/${id}`, {
+    fetch(`http://localhost:3000/reviews/${id}`, {
       method: "DELETE"
     })
       .then(() => {
