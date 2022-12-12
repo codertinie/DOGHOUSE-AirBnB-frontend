@@ -70,7 +70,7 @@ function Single({ user, id }) {
       fetchPostedReview()
   }
 
-
+console.log(user)
   return (
     <div className="single">
       <div className="leftside">

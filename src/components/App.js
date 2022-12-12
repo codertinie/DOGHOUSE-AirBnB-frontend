@@ -14,7 +14,7 @@ function App() {
   const [id, setId] = useState(0)
 
   useEffect(() => {
-    fetch('/me')
+    fetch('https://dog-house-production.up.railway.app/me')
       .then((r) => {
         if (r.ok) {
           r.json().then((user) => setUser(user))
@@ -23,7 +23,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    fetch('/dog_houses')
+    fetch('https://dog-house-production.up.railway.app/dog_houses')
       .then(response => response.json())
       .then((data) => {
         console.log(data)
