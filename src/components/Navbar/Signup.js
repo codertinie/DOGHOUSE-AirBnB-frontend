@@ -31,7 +31,7 @@ export default function Signup({ onLogin }) {
   function handleSubmit(e) {
     e.preventDefault();
     setErrors([]);
-    fetch("http://localhost:3000/signup", {
+    fetch("https://dog-house-production.up.railway.app/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
